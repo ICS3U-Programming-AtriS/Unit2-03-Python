@@ -9,7 +9,7 @@ import constants
 
 def main():
     # Get the Pizza's diameter in inches
-    diameter = int(input("Enter the diameter (inches): "))
+    diameter = int(input("Enter the diameter of the pizza (inches): "))
 
     # Calculate the subtotal
     subtotal = constants.LABOUR_COST + constants.RENTAL_COST
